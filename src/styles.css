@@ -63,11 +63,10 @@ main {
 .current-weather {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Align items to the same baseline */
+  align-items: center;
 }
 
 .weather-details {
-  /* No need for specific width, it will take up remaining space */
 }
 
 .current-city {
@@ -88,7 +87,7 @@ main {
 
 .temperature-container {
   display: flex;
-  align-items: center; /* Align icon and temperature vertically */
+  align-items: center;
 }
 
 .current-temperature-value {
