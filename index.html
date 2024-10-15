@@ -23,18 +23,24 @@
       </header>
       <main>
         <div class="current-weather">
-          <div>
+          <div class="weather-details">
             <h1 class="current-city">Cape Town</h1>
             <p class="current-details">
               <span id="current-date">Tuesday 15:53</span>, moderate rain <br />
               Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
             </p>
           </div>
-          <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
-            ><span class="current-temperature-value" id="current-temperature"
-              >24</span
-            ><span class="current-temperature-unit">°C</span>
+          <div class="temperature-container">
+            <span class="current-temperature-icon"
+              ><img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+                alt="Weather Icon"
+            /></span>
+            <div class="temperature-value">
+              <span class="current-temperature-value" id="current-temperature"
+                >24</span
+              ><span class="current-temperature-unit">°C</span>
+            </div>
           </div>
         </div>
       </main>
