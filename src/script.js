@@ -6,6 +6,7 @@ function displayTemperature(response) {
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = `${temperature}`;
+  iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon" />`;
   iconElement.setAttribute("src", response.data.condition.icon_url);
   iconElement.setAttribute("alt", response.data.condition.description);
 
