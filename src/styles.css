@@ -99,7 +99,7 @@ main {
 .weather-forecast {
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .forecast-day {
@@ -109,7 +109,7 @@ main {
     rgb(131, 83, 241) 0%,
     rgb(236, 158, 248) 90.1%
   );
-  padding: 20px 8px;
+  padding: 20px 5px;
   border-radius: 20px;
 }
 
@@ -122,13 +122,16 @@ main {
 }
 
 .forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
 }
+
 .forecast-temperatures {
   text-align: center;
-  color: white;
-  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  margin-top: 8px;
   display: flex;
   justify-content: center;
 }
